@@ -24,6 +24,7 @@ ul.chat-users-wrapper {
   min-height: 75px;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .chat-user-wrapper.is-active {
@@ -49,7 +50,6 @@ ul.chat-users-wrapper {
 }
 
 .last-chat-message {
-  width: 180px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -58,6 +58,7 @@ ul.chat-users-wrapper {
 .chat-user-main {
   display: flex;
   flex-direction: column;
+  width: calc(100% - 65px);
 }
 
 .chat-user-main-upper {
